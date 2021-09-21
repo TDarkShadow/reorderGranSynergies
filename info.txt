@@ -1,0 +1,11 @@
+{
+	"Name": "Re-order Grandma Synergies",
+	"ID": "reorder gran synergies",
+	"Author": "PurplePi",
+	"Description": "rearranges the grandma synergies in the stats tab so that they're ordered by building.",
+	"ModVersion": 1,
+	"GameVersion": 2.042,
+	"Date": "21/09/2021",
+	"Disabled": 1,
+	"AllowSteamAchievs": 1
+}
