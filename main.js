@@ -7,7 +7,7 @@ Game.registerMod("reorder gran synergies",{
 			let tempUpgradeVar = Game.Upgrades[tempUpgradeVarName];
 			tempUpgradeVar.order = 251+tempUpgradeVar.id*0.001;
 		}	
-		
+		Game.GrandmaSynergies.splice(Game.GrandmaSynergies.indexOf('Cosmic grandmas'), 0, ...(Game.GrandmaSynergies.splice(Game.GrandmaSynergies.indexOf('Banker grandmas'), 3)));
 	},
 	save:function(){
 		//use this to store persistent data associated with your mod
